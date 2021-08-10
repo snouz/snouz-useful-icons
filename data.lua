@@ -9,12 +9,17 @@ if not iconlib then
   iconlib = {}
 end
 
-table.insert(iconlib, {"electric",    6})
-table.insert(iconlib, {"abstract",    9})
-table.insert(iconlib, {"signs",       9})
+table.insert(iconlib, {"electric",   10})
+table.insert(iconlib, {"signs",       8})
+table.insert(iconlib, {"concept",    10})
 table.insert(iconlib, {"aliens",     10})
 table.insert(iconlib, {"androids",   10})
 table.insert(iconlib, {"control",    10})
+table.insert(iconlib, {"diplomacy",  10})
+table.insert(iconlib, {"connect",    10})
+table.insert(iconlib, {"no",         20})
+
+table.insert(iconlib, {"abstract",    9})
 
 
 ------------------------------------------------------------

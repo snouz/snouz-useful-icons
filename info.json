@@ -1,10 +1,10 @@
 {
 	"name": "snouz-useful-icons",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"title": "Snouz Useful Icons",
 	"author": "snouz",
 	"dependencies": ["base >= 1.1.0"],
-	"description": "",
+	"description": "Useful and fun Signals to spice up your blueprint covers, logistic signals and map pins.",
 	"factorio_version": "1.1",
 	"homepage": ""
 }
