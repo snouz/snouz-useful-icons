@@ -10,8 +10,8 @@ if not iconlib then
 end
 
 table.insert(iconlib, {"electric",   10})
-table.insert(iconlib, {"signs",       8})
-table.insert(iconlib, {"concept",    10})
+table.insert(iconlib, {"signs",      10})
+table.insert(iconlib, {"concept",    20})
 table.insert(iconlib, {"aliens",     10})
 table.insert(iconlib, {"androids",   10})
 table.insert(iconlib, {"control",    10})
@@ -72,7 +72,7 @@ end
 --------------------- mod icons -------------------------
 
 local modiconlib = {
-  {"base", 1}, {"space-exploration", 1}, {"aai-industry", 1}, {"Krastorio2", 1}, {"boblibrary", 1}, {"angelsrefining", 1},
+  {"base", 2}, {"Satisfactorio", 1}, {"space-exploration", 1}, {"aai-industry", 1}, {"Krastorio2", 1}, {"boblibrary", 1}, {"angelsrefining", 1},
   {"IndustrialRevolution", 2}, {"5dim_core", 1}, {"pyalienlife", 1}, {"pyfusionenergy", 1}, {"pycoalprocessing", 1},
   {"pyhightech", 1}, {"pyindustry", 1}, {"pypetroleumhandling", 1}, {"pyrawores", 1}, {"Factorissimo2", 1}, {"Bio_Industries", 1},
   {"modmashsplinter", 1, "modmash"}, {"Darkstar_utilities", 1}, {"Dectorio", 1}, {"Geothermal", 1},

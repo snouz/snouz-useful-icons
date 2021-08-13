@@ -1,6 +1,6 @@
 {
 	"name": "snouz-useful-icons",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"title": "Snouz Useful Icons",
 	"author": "snouz",
 	"dependencies": ["base >= 1.1.0"],
