@@ -1,10 +1,10 @@
 {
 	"name": "snouz-useful-icons",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"title": "Snouz Useful Icons",
 	"author": "snouz",
 	"dependencies": ["base >= 1.1.0"],
-	"description": "Useful and fun Signals to spice up your blueprint covers, logistic signals and map pins.",
+	"description": "Useful and/or fun Signals to spice up your blueprint covers, logistic signals, map pins, stations...",
 	"factorio_version": "1.1",
-	"homepage": ""
+	"homepage": "https://mods.factorio.com/mod/MbrTestMod"
 }

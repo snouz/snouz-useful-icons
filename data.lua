@@ -9,17 +9,18 @@ if not iconlib then
   iconlib = {}
 end
 
-table.insert(iconlib, {"electric",   10})
-table.insert(iconlib, {"signs",      10})
-table.insert(iconlib, {"concept",    20})
-table.insert(iconlib, {"aliens",     10})
-table.insert(iconlib, {"androids",   10})
-table.insert(iconlib, {"control",    10})
-table.insert(iconlib, {"diplomacy",  10})
-table.insert(iconlib, {"connect",    10})
-table.insert(iconlib, {"no",         20})
-
-table.insert(iconlib, {"abstract",    9})
+table.insert(iconlib, {"electric",     10})
+table.insert(iconlib, {"signs",        10})
+table.insert(iconlib, {"architecture", 10})
+table.insert(iconlib, {"concept",      30})
+table.insert(iconlib, {"aliens",       10})
+table.insert(iconlib, {"androids",     10})
+table.insert(iconlib, {"control",      10})
+table.insert(iconlib, {"diplomacy",    10})
+table.insert(iconlib, {"military",     10})
+table.insert(iconlib, {"connect",      10})
+table.insert(iconlib, {"no",           20})
+table.insert(iconlib, {"abstract",     10})
 
 
 ------------------------------------------------------------
@@ -49,7 +50,7 @@ for k, v in pairs(iconlib) do
   subgroup.type = "item-subgroup"
   subgroup.name = "snouz-" .. name
   subgroup.group = "snouz-icons"
-  subgroup.order = "" .. modorder .. "-" .. k
+  subgroup.order = "" .. modorder .. "-" .. string.format("%02d", k)
   if not data.raw["item-subgroup"]["snouz-" .. name] then
     data:extend({subgroup})
   end
